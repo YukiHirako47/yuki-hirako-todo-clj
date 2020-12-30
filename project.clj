@@ -16,7 +16,7 @@
                  [metosin/ring-http-response "0.6.5"]
                  [slingshot "0.12.2"]
                  [potemkin "0.4.1"]]
-  :plugins [[lein-environ "1.0.1"]]
+  :plugins [[lein-environ "1.2.0"]]
   :uberjar-name "todo-clj.jar"
   :profiles
   {:dev {:dependencies [[prone "0.8.2"]]
