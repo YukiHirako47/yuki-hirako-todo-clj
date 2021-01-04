@@ -20,14 +20,13 @@
   :uberjar-name "todo-clj.jar"
   :profiles
   {:dev {:dependencies [[prone "0.8.2"]]
-         :env {:dev true}
-         :db {:dbtype "postgresql"
-              :dbname "todo_clj_dev"
-              :host "localhost"
-              :port 5432
-              :user "hirakoyuki"
-              :password "password"}
-           }
+         :env {:dev true
+               :db {:dbtype "postgresql"
+                    :dbname "todo_clj_dev"
+                    :host "localhost"
+                    :port 5432
+                    :user "hirakoyuki"
+                    :password "password"}}}
    :uberjar {:aot :all
              :main todo-clj.main}}
   )
