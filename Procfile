@@ -1,1 +1,1 @@
-web: java -cp target/todo-clj.jar todo-clj.main -m todo-clj.core
+web: java -cp target/todo-clj.jar clojure.main -m todo-clj.core

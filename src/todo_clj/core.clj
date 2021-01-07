@@ -37,9 +37,9 @@
     (start-server)))
 
 
-(in-ns 'todo-clj.core)
+; (in-ns 'todo-clj.core)
 
-(require '[todo-clj.core :as c])
-(c/start-server)
-(c/restart-server)
-(c/stop-server)
+; (require '[todo-clj.core :as c])
+; (c/start-server)
+; (c/restart-server)
+; (c/stop-server)
